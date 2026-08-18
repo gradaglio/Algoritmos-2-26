@@ -14,4 +14,5 @@ Para darte cuenta de cuándo conviene usar un mapa en lugar de recorrer listas o
    * Si los valores de entrada fueran pequeños (por ejemplo, enteros entre $0$ y $1000$), un simple vector o array vector<int> freq(1001) sería suficiente y aún más rápido.
    * Si los valores pueden ser grandes (hasta $10^9$ o negativos), no puedes declarar un vector de ese tamaño en memoria. El unordered_map solo guarda memoria para los números que realmente aparecen.
    
-Regla práctica para futuros problemas:Si un ejercicio te pide comparar elementos compartidos, contar repeticiones o calcular intersecciones/diferencias entre colecciones sin importar el orden, usa un unordered_map (o std::sort con técnica de dos punteros si prefieres evitar mapas).
+Regla práctica para futuros problemas:
+# _Si un ejercicio te pide comparar elementos compartidos, contar repeticiones o calcular intersecciones/diferencias entre colecciones sin importar el orden, usa un unordered_map (o std::sort con técnica de dos punteros si prefieres evitar mapas).
